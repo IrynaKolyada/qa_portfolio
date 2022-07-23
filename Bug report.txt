@@ -1,0 +1,33 @@
+1.Bug
+
+Summary:
+[Cart page] The full price is displayed for product from On Sale category  
+
+Steps to reproduce:
+1. Open the Home page
+2. Click the On sale on the Navbar
+3. Add any item 
+4. Click on the Cart icon
+5. Review the Total price
+
+Exp.result:
+The Total price should be discounted price
+
+Act. result:
+The Total price displays as a full price
+
+2.Bug
+
+Summary:
+[Home page] The Result page does not exist after clicking on the 'Shop now' button of the Hero product 
+
+Steps to reproduce:
+1. Open the Home page
+2. The banner of Hero product is in the view
+3. Click on the button 'Shop Now'
+
+Exp.result:
+User should be redirected on the Result page
+
+Act. result:
+Error message displays "Page not found"
