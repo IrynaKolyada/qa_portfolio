@@ -1,0 +1,22 @@
+Test case 1
+Title:
+All fields from the Payment form should have placeholders
+
+Steps:
+Given user is on the Checkout page 
+When user observes the Payment form
+
+Expected result:
+Then all fields should have placeholder
+
+Test case 2
+Title:
+User should be able to complete the Payment
+
+Steps:
+Given user is on the Checkout page 
+And all fields of the Payment form are filled out valid set of data 
+When user clicked on the Confirm order button
+
+Expected result:
+Then the Payment should be completed
